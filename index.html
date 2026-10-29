@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Skill Progress Bars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <p class="eyebrow">MY DEVELOPMENT JOURNEY</p>
+      <h1>My <span>Skills</span></h1>
+      <p class="subtitle">
+        A visual snapshot of the skills I'm learning and developing.
+      </p>
+    </header>
+
+    <section class="skills-card" id="skillsSection">
+      <div class="section-heading">
+        <div>
+          <h2>Technical Skills</h2>
+          <p>Watch each skill bar come to life!</p>
+        </div>
+        <span class="badge">5 Skills</span>
+      </div>
+
+      <div class="skill" data-progress="90">
+        <div class="skill-info">
+          <span class="skill-name">HTML5</span>
+          <span class="percentage">90%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill html-fill"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-progress="80">
+        <div class="skill-info">
+          <span class="skill-name">CSS3</span>
+          <span class="percentage">80%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill css-fill"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-progress="70">
+        <div class="skill-info">
+          <span class="skill-name">JavaScript</span>
+          <span class="percentage">70%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill js-fill"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-progress="75">
+        <div class="skill-info">
+          <span class="skill-name">Python</span>
+          <span class="percentage">75%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill python-fill"></div>
+        </div>
+      </div>
+
+      <div class="skill" data-progress="65">
+        <div class="skill-info">
+          <span class="skill-name">C Programming</span>
+          <span class="percentage">65%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill c-fill"></div>
+        </div>
+      </div>
+
+      <button id="replayBtn" type="button">↻ Replay Animation</button>
+      <p class="note">
+        Note: Percentages are illustrative values for this demo.
+      </p>
+    </section>
+
+    <footer>
+      <p>Keep learning. Keep growing. ✨</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
